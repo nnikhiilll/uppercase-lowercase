@@ -1,0 +1,8 @@
+# main.py
+uppercase=input("Enter a world in all uppercase: ")
+difference=ord("a")-ord("A")
+w=len(uppercase)
+lowercase=""
+for i in range(w):
+  lowercase+=chr(ord(uppercase[i])+difference)
+print(lowercase)
